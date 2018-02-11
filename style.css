@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ECEFF1;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ECEFF1;
+}
+
+.app_header {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 80px;
+  background-color: #454851;
+  color: white;
+}
+
+.forma {
+  margin: auto;
+  padding-top: 70px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  justify-content: space-around;
+
+}
+
+.submit {
+   border-radius: 28px;
+  color: #454851;
+  font-size: 20px;
+  background: #ECEFF1;
+  padding: 10px 20px 10px 20px;
+  border: solid #454851 2px;
+  text-decoration: none;
+}
+
+.submit:hover {
+  text-decoration: none;
+}
+
+.wrapper {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 60px;
+  height: 20px;
+}
+
+.app--section {
+  padding-top: 40px;
+  padding-bottom: 20px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+#how {
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.print {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}

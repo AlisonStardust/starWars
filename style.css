@@ -73,3 +73,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.namePrint {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chewbacca {
+  display: none;
+  height: 400px;
+  background-image: url("chewbacca.jpeg")
+}

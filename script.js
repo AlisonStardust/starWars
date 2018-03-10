@@ -9,7 +9,8 @@ const apiAddress = 'https://swapi.co/api/people?search=';
 
 forma.addEventListener('submit', functSubmit);
 
-function functSubmit() {
+function functSubmit(event) {
+  event.preventDefault();
   apirequest(input.value)
 }
 

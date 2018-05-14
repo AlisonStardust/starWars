@@ -31,6 +31,7 @@ function apirequest(characterName) {
           print.innerText = `What do you mean by ${input.value} 🤔?`;
         }
       })
+      .catch(error => console.log('Error: ', error));
   }
 }
 

@@ -1,20 +1,22 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #ECEFF1;
 }
 
 body {
+  overflow-x:hidden;
+  height:100%;
   font-family: 'Roboto', sans-serif;
-  background-color: #ECEFF1;
+  background-color: #FFFCF9;
 }
 
 .app_header {
   box-sizing: border-box;
   text-align: center;
   padding: 80px;
-  background-color: #454851;
+  background-color: #091540;
   color: white;
+  z-index: 100;
 }
 
 .forma {
@@ -29,9 +31,9 @@ body {
 }
 
 .submit {
-   border-radius: 28px;
+  border-radius: 28px;
   color: #454851;
-  font-size: 20px;
+  font-size: 0.5em;
   background: #ECEFF1;
   padding: 10px 20px 10px 20px;
   border: solid #454851 2px;
@@ -57,7 +59,7 @@ body {
 .app--section {
   padding-top: 40px;
   padding-bottom: 20px;
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1.5em;
@@ -84,4 +86,24 @@ body {
   display: none;
   height: 400px;
   background-image: url("chewbacca.jpeg")
+}
+
+.doodle {
+  z-index: -1;
+}
+
+@media (min-width: 10px) and (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 650px) {
+
+}
+
+@media (min-width: 651px) and (max-width: 1204px) {
+
+}
+
+@media (min-width: 1205px) and (max-width: 3000px) {
+
 }

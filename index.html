@@ -16,10 +16,9 @@
     <form class="forma">
       Character name:
       <input type="text" class="non">
-      <input type="submit" class="submit">
+      <input type="submit" class="submit" value="A long time ago in a galaxy far, far away...">
     </form>
   </div>
-
   <div class="app--section">
     <p class="namePrint">
     </p>
@@ -27,7 +26,21 @@
     </p>
   </div>
   <div class="chewbacca"></div>
+<css-doodle class="doodle">
+  :doodle {
+    @grid: 5 / 100vmax;
+    background: #FFFCF9;
+  }
+  --n: calc(
+      @abs(@abs(@row() - 6)
+    + @abs(@col() - 6) - 11) / 11
+  );
+  transform: rotate(45deg);
+  border: 1px solid;
+  border-color: #091540;
+</css-doodle>
   <script src="script.js"></script>
+  <script src="https://css-doodle.com/lib/css-doodle-0.3.0.min.js"></script>
 </body>
 
 </html>

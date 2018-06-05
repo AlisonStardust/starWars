@@ -10,37 +10,23 @@
 </head>
 
 <body class="website">
-  <h1 class="app_header">What movies was ... in?
+  <h1 class="header">In what movies from Star Wars galaxy was this character in?
   </h1>
-  <div class="app">
-    <form class="forma">
-      Character name:
-      <input type="text" class="non">
-      <input type="submit" class="submit" value="A long time ago in a galaxy far, far away...">
+  <div class="form">
+    <form class="form_app">
+      <input type="text" class="form_app--text" placeholder="Character name" onfocus="this.placeholder = ''"
+onblur="this.placeholder = 'Character name'">
+      <input type="submit" class="form_app--submit" value="A long time ago in a galaxy far, far away...">
     </form>
   </div>
-  <div class="app--section">
-    <p class="namePrint">
+  <div class="print">
+    <p class="print_name">
     </p>
-    <p class="print">
+    <p class="print_movies">
     </p>
   </div>
   <div class="chewbacca"></div>
-<css-doodle class="doodle">
-  :doodle {
-    @grid: 5 / 100vmax;
-    background: #FFFCF9;
-  }
-  --n: calc(
-      @abs(@abs(@row() - 6)
-    + @abs(@col() - 6) - 11) / 11
-  );
-  transform: rotate(45deg);
-  border: 1px solid;
-  border-color: #091540;
-</css-doodle>
   <script src="script.js"></script>
-  <script src="https://css-doodle.com/lib/css-doodle-0.3.0.min.js"></script>
 </body>
 
 </html>

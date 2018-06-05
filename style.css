@@ -1,83 +1,55 @@
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 body {
-  overflow-x:hidden;
+  overflow-x: hidden;
   height:100%;
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFCF9;
+  background-color: #FEFCFD;
 }
 
-.app_header {
+.header {
   box-sizing: border-box;
   text-align: center;
-  padding: 80px;
   background-color: #091540;
   color: white;
-  z-index: 100;
 }
 
-.forma {
+.form {
   margin: auto;
-  padding-top: 70px;
-  max-width: 600px;
   display: flex;
   flex-direction: row;
-  font-size: 1.5em;
   justify-content: space-around;
-
 }
 
-.submit {
-  border-radius: 28px;
-  color: #454851;
-  font-size: 0.5em;
-  background: #ECEFF1;
-  padding: 10px 20px 10px 20px;
-  border: solid #454851 2px;
+.form_app--text {
+  color: #091540;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form_app--text:hover {
+  opacity: 0.6;
+}
+
+.form_app--submit {
   text-decoration: none;
+  background-color: #091540;
 }
 
-.submit:hover {
+.form_app--submit:hover {
   text-decoration: none;
-}
-
-.wrapper {
-  padding: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn {
-  width: 60px;
-  height: 20px;
-}
-
-.app--section {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1.5em;
-}
-
-#how {
-  padding-bottom: 20px;
-  padding-top: 30px;
 }
 
 .print {
-  padding: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.namePrint {
-  padding: 20px;
+.print_name {
   display: flex;
   flex-direction: column;
 }
@@ -86,10 +58,6 @@ body {
   display: none;
   height: 400px;
   background-image: url("chewbacca.jpeg")
-}
-
-.doodle {
-  z-index: -1;
 }
 
 @media (min-width: 10px) and (max-width: 480px) {
@@ -105,5 +73,43 @@ body {
 }
 
 @media (min-width: 1205px) and (max-width: 3000px) {
+
+  .header {
+    padding: 70px;
+    font-size: 2.8em;
+  }
+
+  .form_app--submit {
+    padding: 30px;
+    font-size: 2em;
+    width: 100vw;
+    height: 10vh;
+  }
+
+  .form_app--text {
+    width: 100vw;
+    height: 18vh;
+    font-size: 3.2em;
+  }
+
+  .print {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+  }
+
+  .print_movies {
+    padding: 20px;
+  }
+
+  .print_name {
+    padding: 20px;
+  }
+
+  .chewbacca {
+    display: none;
+    height: 400px;
+    background-image: url("chewbacca.jpeg")
+  }
 
 }

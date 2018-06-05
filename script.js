@@ -1,11 +1,11 @@
 const startapp = () => {
 
-  const input = document.querySelector('.non');
-  const submitButton = document.querySelector(".submit");
-  const forma = document.querySelector(".forma");
+  const input = document.querySelector('.form_app--text');
+  const submitButton = document.querySelector(".form_app--submit");
+  const forma = document.querySelector(".form");
   const chewbaccaDiv = document.querySelector(".chewbacca");
-  const print = document.querySelector(".print");
-  const namePrint = document.querySelector(".namePrint");
+  const print = document.querySelector(".print_movies");
+  const namePrint = document.querySelector(".print_name");
   const apiAddress = 'https://swapi.co/api/people?search=';
 
 

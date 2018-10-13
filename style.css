@@ -8,14 +8,16 @@ body {
   overflow-x: hidden;
   height:100%;
   font-family: 'Roboto', sans-serif;
-  background-color: #FEFCFD;
 }
 
 .header {
   box-sizing: border-box;
   text-align: center;
-  background-color: #091540;
-  color: white;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #091540;
 }
 
 .form {
@@ -36,7 +38,10 @@ body {
 
 .form_app--submit {
   text-decoration: none;
-  background-color: #091540;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .form_app--submit:hover {
@@ -61,15 +66,107 @@ body {
 }
 
 @media (min-width: 10px) and (max-width: 480px) {
+  .header {
+    padding: 50px;
+    font-size: 2em;
+  }
 
+  .form_app--submit {
+    padding: 2px;
+    font-size: 1.3em;
+    width: 80vw;
+    height: 10vh;
+  }
+
+  .form_app--text {
+    width: 100vw;
+    height: 15vh;
+    font-size: 2.6em;
+  }
+
+  .print {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+
+  .print_movies {
+    padding: 20px;
+  }
+
+  .print_name {
+    padding: 20px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 650px) {
 
+  .header {
+    padding: 50px;
+    font-size: 2em;
+  }
+
+  .form_app--submit {
+    padding: 2px;
+    font-size: 1.3em;
+    width: 80vw;
+    height: 10vh;
+  }
+
+  .form_app--text {
+    width: 100vw;
+    height: 15vh;
+    font-size: 2.6em;
+  }
+
+  .print {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+
+  .print_movies {
+    padding: 20px;
+  }
+
+  .print_name {
+    padding: 20px;
+  }
 }
 
 @media (min-width: 651px) and (max-width: 1204px) {
 
+  .header {
+    padding: 60px;
+    font-size: 2.4em;
+  }
+
+  .form_app--submit {
+    padding: 8px;
+    font-size: 1.8em;
+    width: 100vw;
+    height: 10vh;
+  }
+
+  .form_app--text {
+    width: 100vw;
+    height: 18vh;
+    font-size: 3em;
+  }
+
+  .print {
+    padding-top: 35px;
+    padding-bottom: 18px;
+    font-size: 1.4em;
+  }
+
+  .print_movies {
+    padding: 20px;
+  }
+
+  .print_name {
+    padding: 20px;
+  }
 }
 
 @media (min-width: 1205px) and (max-width: 3000px) {
@@ -105,11 +202,4 @@ body {
   .print_name {
     padding: 20px;
   }
-
-  .chewbacca {
-    display: none;
-    height: 400px;
-    background-image: url("chewbacca.jpeg")
-  }
-
 }
